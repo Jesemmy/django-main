@@ -1,0 +1,38 @@
+import React, { Component } from 'react'
+
+class Login extends Component {
+
+    constructor(){
+      super()
+      this.state = null
+    }
+
+    componentWillMount(){
+      const options = {
+        method: 'GET',
+        headers: {
+          'X-RapidAPI-Key': '8e4e7fb831mshfae0d0b9e21b818p1c51acjsnbf38dfdf6bed',
+          'X-RapidAPI-Host': 'crypto-news16.p.rapidapi.com'
+        }
+      };
+      
+      fetch('https://crypto-news16.p.rapidapi.com/news/top/5', options)
+        .then(response => response.json())
+        .then(response => this.setState(response))
+        .catch(err => console.error(err));
+    }
+
+    componentDidMount(){
+      console.log("this is componentDidmount")
+    }
+
+  render() {
+    console.log(this.state)
+    return (
+      <div>{object}
+      </div>
+    )
+  }
+}
+
+export default Login

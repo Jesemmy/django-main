@@ -1,0 +1,59 @@
+.Footer{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.footbanner h5{
+    background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footbanner p{
+    color: #475467;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    
+}
+
+.footinput{
+    margin-top: 30px;
+    
+}
+
+.footinput #email{
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #D0D5DD;
+    background: #FFFFFF;
+    /* box-sizing: border-box; */ 
+    width: 280px;
+    height: 50px;
+}
+
+.footinput #btn{
+    height: 50px;
+    width: 90px;
+    background: #1D2939;
+    border-radius: 0px 8px 8px 0px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.footinput ::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+    width: 94px;
+    height: 20px;
+    color: #98A2B3;
+    padding-left: 15px;
+    font-style: normal;
+}
